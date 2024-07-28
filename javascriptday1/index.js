@@ -1,0 +1,54 @@
+// $("h1").hide();
+// $(selector).action();/*syntax*/
+// id ko lagi#
+// class kko lagi Dot(.)
+$("#hd").click(function(){
+    $("h1").hide();
+})
+$("#s").click(function(){
+    $("h1").show();
+})
+$("#f").click(function(){
+    $("h1").fadeOut(5000);
+})
+$("#fi").click(function(){
+    $("h1").fadeIn(5000);
+})
+$("#ft").click(function(){
+    $("h1").fadeToggle(5000);
+})  
+$("#su").click(function(){
+    $("h1").slideUp(5000);
+})
+$("#sd").click(function(){
+    $("h1").slideDown(5000);
+})
+$("#suanisd").click(function(){
+    $("h1").slideToggle(5000);
+})
+$("#a").click(function(){
+    $("h1").append("<input></input>");
+})
+$("#p").click(function(){
+    $("h1").prepend("<input></input>");
+})
+$("#af").click(function(){
+    $("h1").after("<input></input>");
+})
+$("#b").click(function(){
+    $("h1").before("<input></input>");
+})
+$("#RE").click(function(){
+    $("h1").remove();
+})
+$("#EM").click(function(){
+    $("h1").empty();
+})
+$("h1").hover(function(){
+    $("h1").addClass("rr");
+},
+function()
+{
+    $("h1").removeClass("rr");
+}
+)
